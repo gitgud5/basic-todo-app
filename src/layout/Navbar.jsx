@@ -22,6 +22,12 @@ export default function Navbar() {
         >
           The todo List
         </Link>
+        <Link
+          className="block mt-4 mr-10 text-blue-900 lg:inline-block lg:mt-0 hover:text-indigo-600"
+          to={"/expenses"}
+        >
+          Expenses Page
+        </Link>
       </div>
     </nav>
   );
